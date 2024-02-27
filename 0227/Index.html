@@ -1,13 +1,99 @@
-<html>
 
-<head>
-    <title>Cassidy Horn Feb 27 </title>
-        <script src="https://juxinglong.github.io/static/iframe-resizer/iframeResizer.contentWindow.min.js"></script>
+<!--
+    tag language strict
+a pair of tag: <tagName></tagName>
+a stand alone tag: <tagName/>
+    -->
+<html> <!-- saying this is a web page-->
+
+<head> <!-- -->
+    <title>
+        Feb 27 MIS 3033
+    </title>
+
+    <link rel="icon" href="cs.svg"/> 
 </head>
-<body>
-    This is my first web page.
 
-    This is the second line.
+<body>
+
+    <span style="color:green;font-size:20px" >MIS 3033: span</span> <!-- only occupy space not whole line-->
+    <span>MIS 3033: span</span>
+    <span>MIS 3033: span</span>
+
+    <div>MIS 3033: div</div> <!-- will occupy the whole row no matter small or big-->
+    <div>MIS 3033: div</div>
+    <div>MIS 3033: div</div>
+
+    <ol> <!--number list-->
+        <li>Apple</li>
+        <li>&#127849;</li>
+        <li>Peaches</li>
+        <li>
+            <img id="Img1" src="cs.svg" width="20" />
+        </li>
+    </ol>
+
+    <hr/>
+
+    <ul> <!-- Bullet list-->
+        <li>Apple</li>
+        <li>&#127849;</li>
+        <li>Peaches</li>
+        <li>
+            <img src="cs.svg" width="20" />
+        </li>
+    </ul>
+
+    <a target="_blank" href="https://bpl.price.ou.edu/hw/">
+        HW &#128078;
+
+        <img width="50" src="cs.svg" />
+    </a>
+
+    <br />
+
+    <img height="200" width="200" src="data:image/jpeg;base64,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" />
+
+    <img src="mis3033.svg" width="400" height="300" />
+
+    <br />
+
+    <b>
+        <strike>
+            MIS 3033
+        </strike>
+        MIS &nbsp; &nbsp; &nbsp; 3033
+    </b>
+
+    <br />
+
+    <h1>&#128025; &nbsp; &#128025;</h1>
+
+    <br />
+    <br />
+
+    <i>
+        MIS 3033
+    </i>
+
+    <br />
+
+    <h1>MIS 3033</h1>
+    <h2>MIS 3033</h2>
+    <h3>MIS 3033</h3>
+    MIS 3033
+
+
+    MIS 3033
+
+    <p>
+        Founded in 1890, the University of Oklahoma was actually established 17 years prior to Oklahoma’s statehood. So, while this venerable institution is, of course, dedicated to the success of its students, the university has always focused on contributing to the advancement of the entire state. This mindset is reflected in our official mission:
+    </p>
+    <p>
+        The mission of the University of Oklahoma is to provide the best possible educational experience for our students through excellence in teaching, research and creative activity, and service to the state and society.
+    </p>
+
+
 </body>
 
 </html>
